@@ -2,11 +2,15 @@
 
 #
 # Latest versions
+# - LUA: http://www.lua.org/download.html
+# - LuaRocks: https://github.com/luarocks/luarocks/wiki/Download
+# - TCL: https://www.tcl.tk/software/tcltk/
+# - LMOD: https://github.com/TACC/Lmod/releases
 #
 lua_version=5.4.3
 luarocks_version=3.7.0
 tcl_version=8.6.11
-lmod_version=8.5.9
+lmod_version=8.5.14
 
 # Just to be sure, add the binary directory to the PATH.
 PATH=$HOME/appl/bin:$PATH

@@ -7,6 +7,7 @@ cd $HOME
 mkdir -p work
 cd work
 
+# GPP version: https://github.com/logological/gpp
 version='2.27'
 [[ -f gpp-$version.tar.bz2 ]] || wget https://github.com/logological/gpp/releases/download/$version/gpp-$version.tar.bz2
 tar -xf gpp-$version.tar.bz2
